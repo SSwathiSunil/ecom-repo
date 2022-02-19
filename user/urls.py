@@ -5,6 +5,6 @@ from.import views
 app_name='user'
 
 urlpatterns=[
-    path('home',views.Index),
+    path('',views.Index),
     path('userr',views.New)
 ]
