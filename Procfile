@@ -1,0 +1,1 @@
+web: gunicorn cdspace.wsgi --log-file -
